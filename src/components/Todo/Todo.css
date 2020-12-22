@@ -1,0 +1,50 @@
+.todo {
+  margin: 0.5rem;
+  background-color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2d3436;
+  min-width: 40vh;
+  transition: all 1s ease;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.todo-item {
+  padding-left: 1rem;
+}
+
+.complete-btn, .delete-btn {
+  background-color:#d63031;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.complete-btn {
+  background-color:#00b894;
+}
+
+.complete-btn:focus, .delete.btn:focus {
+  outline: none;
+}
+
+.fa-trash, .fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration-line: line-through;
+  opacity: 15%;
+}
+
+.removing {
+  transform: translateY(8rem) rotateZ(15deg);
+  opacity: 0;
+}

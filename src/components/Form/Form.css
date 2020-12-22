@@ -1,0 +1,48 @@
+form {
+  min-height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  border: #666;
+  background: white;
+}
+
+form input:focus {
+  outline: none;
+}
+form button {
+  color: #0984e3;
+  background-color: white;
+}
+
+form button:hover {
+  background: #0984e3;
+  color: white;
+  opacity: 50%;
+  transition: all 0.5s ease;
+}
+
+form button:focus {
+  outline: none;
+}
+
+select {
+  margin: auto;
+  font-size: 1.25rem;
+  color: #0984e3;
+  width: 12rem;
+  cursor: pointer;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  float: center;
+}
